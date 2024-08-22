@@ -23,7 +23,7 @@ const CharacterPage = () => {
   if (error) {
     return (
       <Alert>
-        <h1>ERROR! {error.message} </h1>
+        <h1>ERROR!!! {error.message} </h1>
       </Alert>
     );
   }
